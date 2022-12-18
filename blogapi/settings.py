@@ -161,7 +161,7 @@ ACCOUNT_AUTHENTICATION_METHOD = 'email'
 
 DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
 AWS_ACCESS_KEY_ID = #본인의 액세스키
-AWS_SECRET_ACCESS_KEY =  #본인의 시크릿키
+AWS_SECRET_ACCESS_KEY = #본인의 시크릿키
 AWS_STORAGE_BUCKET_NAME = #본인이 만든 버킷 이름
 AWS_S3_SIGNATURE_VERSION = 's3v4'
 AWS_S3_REGION_NAME = 'ap-northeast-2'
